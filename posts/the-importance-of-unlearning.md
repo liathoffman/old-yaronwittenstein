@@ -34,7 +34,7 @@ The solution to how to make Erlang virtual machine (called BEAM) mainstream, mai
 Why deploy containers to the cloud when we want only a single function that doesn’t need to be up 24x7?
 
 1. **GraphQL**
-REST API is not ideal for any problem, many data models are actually viewed better as a graph and this protocol plays nicely with them
+REST API is not ideal for every problem, many data models are actually viewed better as a graph and this protocol plays nicely with them
 
 1. **Redis**
 The innovative key-value database having so many data-structures.
