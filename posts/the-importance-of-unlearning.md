@@ -1,7 +1,7 @@
 # The importance of unlearning
 
 
-The world of software is changing consistently at a very fast pace.
+The world of software is changing constantly at a very fast pace.
 Yesterday’s axioms might be tomorrow’s anti-patterns.
 
 Newborn technologies rise to popularity and most of them will become obsolete sooner than expected and hardware advancements make game changers for things that were considered as science-fiction a few years ago.
@@ -63,7 +63,7 @@ In order to understand how blockchain technologies work, we must forget about th
 For example, we need to accept here that computer neural networks can output results which we’ll be impossible for us to understand exactly where they came from
 
 1. **Containers**
-Containers disrupted the DevOps world
+Containers disrupted the DevOps world and are the key reason for the micro-services architecture explosion. Without them, we’d stay with more monolithic systems.
 
 1. **WebAssembly**
 Will open many opportunities, the obvious is using new programming languages for Frontend Programming. Another world of possibilities will be consuming WebAssembly libraries and using them within our applications. For example, a Rust program that will initiate a WebAssembly runtime hosting other wasm programs that were originally coded in Golang/Swift/other)
@@ -78,7 +78,7 @@ Learning the Rust programming language [requires us to think on resources differ
 Asks us to stop thinking only about services but also about single functions. It opens new opportunities to save money since we only pay for when the usage of a function (which might not be available 24x7)
 
 1. **GraphQL**
-Requires us to accept that REST isn’t always the best for any scenario and that sometimes there is actually a graph. (I personally think that starting from a REST API and gradually move towards a GraphQL is less risky for a green-field project)
+Requires us to accept that REST isn’t always the best for every scenario and that sometimes there is actually a graph. (I personally think that starting from a REST API and gradually move towards a GraphQL is less risky for a green-field project)
 
 1. **Redis**
 Requires us to represent data in many more shapes: Key-Value / Hashes / Set / SortedSets / Lists etc.
