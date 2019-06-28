@@ -25,7 +25,7 @@ This technology will transform the portability of software between platforms
 
 1. **Rust**
 One of the most innovative programming languages ever invented,
-makes system programming a real joy. The most loved programming language in *Stack Overflow survey *for the last 4 years
+makes system programming a real joy. The most loved programming language in *Stack Overflow survey* for the last 4 years
 
 1. **Elixir**
 The solution to how to make Erlang virtual machine (called BEAM) mainstream, mainly thanks to its Ruby-like syntax and great tooling
@@ -38,11 +38,11 @@ REST API is not ideal for any problem, many data models are actually viewed bett
 
 1. **Redis**
 The innovative key-value database having so many data-structures.
-The most loved database in *Stack Overflow survey *for the last 3 years
+The most loved database in *Stack Overflow survey* for the last 3 years
 
 1. **Kafka**
 Distributed commit log that serves as the single point of truth of a system data. It makes it very easy to add/remove independent producers/consumers for our system architecture.
-Thanks to Kafka it's easy to select a checkpoint and *“re-play” *historical data.
+Thanks to Kafka it's easy to select a checkpoint and *“re-play”* historical data.
 
 On the one hand, it’s an exciting time to be a software developer.
 On the other hand, it means that in order to keep up, we must not stop learning or we’ll become irrelevant
