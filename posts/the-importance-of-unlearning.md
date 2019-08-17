@@ -1,5 +1,6 @@
 # The importance of unlearning
 
+![Headline][Headline]
 
 The world of software is changing constantly at a very fast pace.
 Yesterday’s axioms might be tomorrow’s anti-patterns.
@@ -92,3 +93,6 @@ It also requires humility and willingness to start over in order to gain a new p
 
 Doing unlearning is a continuous inner fight. If done properly can be a huge enabler and if not, then we risk missing growth opportunities.
 > **A change in perspective is worth 80 IQ points (Alan Kay)**
+
+
+[Headline]: https://miro.medium.com/max/715/1*XqvZXIMCxaob-BdWNV2AOw.png
