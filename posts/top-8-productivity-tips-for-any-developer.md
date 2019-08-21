@@ -48,7 +48,7 @@ Here are a fraction of some common scenarios:
 Part of these examples are non-directly programming tasks but are still indispensable for any professional programmer.
 For example: Looking for the time-zone/weather in other parts of the world.
 
-Many of these repetitive tasks involve a couple of steps:
+Many of these repetitive tasks involve a sequence of steps:
 
 * When looking for help at _Stack Overflow_, we need to go to the browser first and make a search via some search-engine.
 Then, we'll select one of the top results which will probably direct us to a  _Stack Overflow_ page, even if we didn't add the term `stackoverflow` explicitly to the search itself.
