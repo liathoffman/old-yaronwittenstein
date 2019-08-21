@@ -2,6 +2,8 @@
 
 ![Headline][Headline]
 
+<br/>
+
 One of the subjects I've always been very passionate about is productivity.
 Looking for ways to do more in less time and effort is a matter of high importance.
 Saving many tiny-energy exertions across a workday adds up to a significant energy saver in total.
@@ -32,7 +34,6 @@ Again, what's important is sticking to the principles and not to the tools.
 
 So let's drill down...
 
-<br/>
 
 ### **Principle #1 - Automating Workflows**
 
@@ -116,7 +117,6 @@ This item won't be complete without mentioning the classic [Wireshark][Wireshark
 As you probably know, each Operating-System comes with built-in command-line tools such as tcpdump / curl.
 
 <br/>
-
 
 ### **Principle #3 - Clipboard History** 
 
@@ -209,11 +209,7 @@ which makes finding most commands a breeze without even asking for the assistanc
 
 So [fzf][fzf] + [zsh-autosuggestions][zsh-autosuggestions] make an unbeatable couple together!
 
-<br/>
-
 We use Command-line a significant fraction of our work. Being able to search our Command-line history is truly a must.
-
-<br/>
 
 * **Offline Documentation**
 
@@ -244,6 +240,8 @@ For the past several years, I've been using [Clear][Clear].
 I'll probably move to another app sometime since the last update was in 2016, and because I feel it lacks some features.
 But overall, it does the job!
 
+<br/>
+
 ![Clear image][Clear image]
 
 If you want to have fewer tabs hanging open in your browser and gain more focus, please consult using [Pocket][Pocket] for saving articles for future reading.
@@ -257,6 +255,7 @@ Knowledge Management can't be complete without mentioning a backup platform Drop
 Anything mentioned in this article is encouraged to be backed-up. Some of the apps have a `Connect-with` to a Cloud-provider integration,
 thus making the backup process smooth.
 
+<br/>
 
 ### **Principle #7 - Keyboard Shortcuts**
 
@@ -275,7 +274,6 @@ For that I deeply recommend [SuperMemo][SuperMemo].
 Putting the time to learn and memorize useful Keyboard shortcuts can have a tremendous positive impact on productivity.
 
 <br/>
-
 
 ### **Principle #8 - Reading Code**
 
@@ -306,17 +304,15 @@ Make sure you enjoy a good reading experience while reading other people's code.
 
 In this article, I've summarised what I believe, are the top 8 productivity principles each programmer should aim to apply.
 I'm humbled by the infinite number of tools and tricks available for us to apply these principles.
+
 I believe that using these principles, can not only speed our work but also increase our joy and sense of fulfillment.
 
-<br/>
 I'd like to thank you for reading this article!
 <br/>
 I hope you enjoyed reading it, and if you did please share it with your friends / Co-workers programmers.
 <br/>
   Thank you!
 
-<br/>
-<br/>
 <br/>
 
 Links:
@@ -381,7 +377,7 @@ Links:
 [Clear image]: http://assets.sbnation.com/assets/1700603/CLEAR_MAC_double_windows.png
 [Pocket]: https://getpocket.com/
 [zsh-autosuggestions]: https://github.com/zsh-users/zsh-autosuggestions
-[Octotree]: https://octotree.io
+[Octotree]: https://www.octotree.io
 [sourcegraph]: http://sourcegraph.com
 [codestream]: https://www.codestream.com/
 [codemarks]: https://www.codestream.com/codemarks
