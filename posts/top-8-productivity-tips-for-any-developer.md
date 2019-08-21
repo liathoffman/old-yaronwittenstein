@@ -1,4 +1,4 @@
-## Top 7 Productivity Principles for Any Developer
+## Top 8 Productivity Principles for Any Developer
 
 ![Headline][Headline]
 
@@ -23,7 +23,7 @@ I wanted to write an article that will focus on principles before the tools.
 
 ### **New tools come and go frequently. What stays with us are the principles.**
 
-I've picked, what I believe are the top 7 productivity principles any developer should employ.
+I've picked, what I believe are the top 8 productivity principles any developer should employ.
 
 I'll also provide with tools recommendations for Mac since I'm a Mac user. Part of my recommendations run on other Operating-Systems as well.
 Regardless of my suggestions, applying these principles to other Operating-systems or finding alternative Mac tools should be easy.
@@ -34,7 +34,7 @@ So let's drill down...
 
 <br/>
 
-1. _**Automating Workflows**_
+### **Principle #1 - Automating Workflows**
 
 A decent amount of a programmer's time is spent on doing repetitive tasks over and over again.
 
@@ -51,7 +51,6 @@ Many of these repetitive tasks involve a couple of steps:
 
 * When looking for help at _Stack Overflow_, we need to go to the browser first and make a search via some search-engine.
 Then, we'll select one of the top results which will probably direct us to a  _Stack Overflow_ page, even if we didn't add the term `stackoverflow` explicitly to the search itself.
-
 * In order to shut down a frozen Operating-System process, we first need to look for its process id (PID) and then execute a kill command.
 (or go to a process explorer GUI, find it there and ask for killing it).
 
@@ -87,7 +86,7 @@ What's important is to stay alert and open for new automating opportunities.
 
 <br/>
 
-1. **API & Inspection tools** 
+### **Principle #2 - API & Inspection tools** 
 
 * **API Tools**
 
@@ -118,9 +117,8 @@ As you probably know, each Operating-System comes with built-in command-line too
 
 <br/>
 
-1.	**Clipboard History** 
 
-There isn't much to expand about this principle, but it's still important.
+### **Principle #3 - Clipboard History** 
 
 Did it ever occur to you that you pasted some text into your IDE file just to realize that the Clipboard had another more recent content while you
 had no longer access to the previous Clipboard data?
@@ -137,7 +135,9 @@ This tool has many extensions. Like, selecting a word and asking for a Dictionar
 
 ![Flycut image][Flycut image]
 
-1.	**Text Expansion & Abbreviations**
+<br/>
+
+### **Principle #4 - Text Expansion & Abbreviations**
 
 * **General Text Expansion**
 
@@ -158,7 +158,7 @@ In the command-line, I use many abbreviations aliases for longer commands (defin
 
 For example: Instead of writing `git reset HEAD --hard` for a local Git repository, I just write `grhh`.
 
-If I need to merge branch, `develop` onto the current branch I just type `gmd`.
+If I need to merge branch `develop` onto the current branch, I just type `gmd`.
 Or instead of opening vim with the `vim` command, I just insert `v`.
 
 * **Side Note**
@@ -168,8 +168,9 @@ It's an AI-powered writing assistant. I use it all the time when composing email
 
 ![Grammarly image][Grammarly image]
 
+<br/>
 
-1.	**Instant local Search** 
+### **Principle #5 - Instant local Search** 
 
 People are flooded with data. And we're the programmers are no exception to that.
 In order to shorten the search time looking for a piece of information, we must have good search tooling.
@@ -218,7 +219,7 @@ We use Command-line a significant fraction of our work. Being able to search our
 
 One of the most frequent actions while programming is questioning "What's the syntax for doing _X_ in programming language _Y_?"
 
-Instead of Googling for a syntax keyword or for some example showing how to use the standard-library, it's suggested to have offline documentation ready for instant search on our machine.
+Instead of Googling for a syntax keyword or for some example showing how to use the standard library, it's suggested to have offline documentation ready for instant search on our machine.
 It can save loads of time and reduce context-switches substantially while programming.
 
 I use the most popular offline documentation tool for Mac called [Dash][Dash]. It comes with documentation sets for almost every programming-language
@@ -233,7 +234,7 @@ For activating [Dash][Dash], most of the times I'm using the [Dash Alfred Workfl
 
 <br/>
 
-1.	**Knowledge Management**
+### **Principle #6 - Knowledge Management**
 
 Inspired by the famous [GTD method][GTD] for organizing knowledge, I'm using a _TODO list_ app to ease my mind and offload tasks out of my brain.
 Each time I'm thinking about something I need to do, I first add it as an item to my _TODO list_ app.
@@ -256,7 +257,8 @@ Knowledge Management can't be complete without mentioning a backup platform Drop
 Anything mentioned in this article is encouraged to be backed-up. Some of the apps have a `Connect-with` to a Cloud-provider integration,
 thus making the backup process smooth.
 
-1.	**Keyboard Shortcuts**
+
+### **Principle #7 - Keyboard Shortcuts**
 
 You probably know the keyboard shortcut for saving the current file changes in your IDE.
 But do you know for example the shortcut for re-opening your last closed browser tab?
@@ -274,7 +276,8 @@ Putting the time to learn and memorize useful Keyboard shortcuts can have a trem
 
 <br/>
 
-1.	**Reading Code**
+
+### **Principle #8 - Reading Code**
 
 Apart from writing code, it's very important to have our reading and navigating an existing source code a pleasant experience.
 When I read other people's code I usually prefer to read it outside of an IDE (it's just a personal taste).
@@ -301,7 +304,7 @@ Make sure you enjoy a good reading experience while reading other people's code.
 
 **Summary**
 
-In this article, I've summarised what I believe, are the top 7 productivity principles each programmer should aim to apply.
+In this article, I've summarised what I believe, are the top 8 productivity principles each programmer should aim to apply.
 I'm humbled by the infinite number of tools and tricks available for us to apply these principles.
 I believe that using these principles, can not only speed our work but also increase our joy and sense of fulfillment.
 
