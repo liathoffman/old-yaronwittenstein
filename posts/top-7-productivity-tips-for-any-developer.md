@@ -10,7 +10,7 @@ The internet is flooded with programming productivity articles.
 Isn't writing a new one is kinda unproductive? &#128521;
 
 Well, the vast majority of programming productivity articles are very specific.
-Here are some examples for the articles you should expect to find:
+Here are some examples of the articles you should expect to find:
 
 * _Must have tools for any Mac Web developer for 2019_
 * _Top 10 tools for any Windows programmer_
@@ -52,13 +52,13 @@ Many of these repetitive tasks involve a couple of steps:
 * When looking for help at _Stack Overflow_, we need to go to the browser first and make a search via some search-engine.
 Then, we'll select one of the top results which will probably direct us to a  _Stack Overflow_ page, even if we didn't add the term `stackoverflow` explicitly to the search itself.
 
-* In order to shut down a frozen Operating-System process we first need to look for its process id (PID) and then execute a kill command.
+* In order to shut down a frozen Operating-System process, we first need to look for its process id (PID) and then execute a kill command.
 (or go to a process explorer GUI, find it there and ask for killing it).
 
 
 Fortunately, there exist various tools dedicated to automating these manual repetitive actions.
 
-If you're a Mac user then, macOS ships with a tool called [Automator][Automator] that let's you create very complicated workflows.
+If you're a Mac user then, macOS ships with a tool called [Automator][Automator] that lets you create very complicated workflows.
 I can't say more on that tool since I didn't actually use it. I do use another one-stop-shop productivity tool called [Alfred][Alfred] which I'll mention a few times
 during the course of this article.
 
@@ -67,7 +67,7 @@ One of the key strengths of Alfred is Workflows.
 Here is an image for illustration: ![Alfred Workflow Image][Alfred Workflow Image]
 
 Basically, each tool has its own strengths and it depends on the situation.
-To my understanding [Automator][Automator] is more [IFTTT][IFTTT]/[zapier][zapier] style tool. [Automator][Automator] hooks into to low-level Operating-System events,
+To my understanding, [Automator][Automator] is more [IFTTT][IFTTT]/[zapier][zapier] style tool. [Automator][Automator] hooks into to low-level Operating-System events,
 while [Alfred][Alfred] mainly glues different components together and start running when we command it to.
 
 Tools like [Automator][Automator]/[Alfred][Alfred] are general-purpose Workflow tools. Each has its own pros.
@@ -77,7 +77,7 @@ A classic example for using a vim macro would be scanning a list of words separa
 If you use tools like Excel, then I know its comes with full-featured programming-language called [VBA][VBA].
 The internet has articles about people that automated most of their day-work leveraging [VBA][VBA] magic!
 
-Sometimes the best workflow solution is essentially writing code. Usually it'll be small script consuming less than 100 LOC like a build script.
+Sometimes the best workflow solution is essentially writing code. Usually, it'll be a small script consuming less than 100 LOC like a build script.
 Other times, it'll be coding a small mini-project.
 
 The key point to take is that if you find yourself manually repeating a workflow-oriented process, think whether it can be automated using a general-purpose Workflow tool
@@ -105,11 +105,11 @@ This can be a huge time saver if you mess a lot with the same API endpoints, onl
 you need. Additionally, sharing files between team members is important. You may want to have some shared place with widely used requests.
 It's can also serve as a complement to your knowledge-base of the system.
 
-If you work with higher-level popular protocols like gRPC you'll probably find a matching UI tools that will suit your needs.
+If you work with higher-level popular protocols like gRPC you'll probably find matching UI tools that will suit your needs.
 
 * **Inspection Tools**
 
-On other occasions you may want to be passive and just sniff traffic and record the packets for later investigation or for replaying traffic.
+On other occasions, you may want to be passive and just sniff traffic and record the packets for later investigation or for replaying traffic.
 When I really needed a good proxy for inspecting data for Mac, I've used [Charles][Charles].
 Many years ago I've played a bit with [Fiddler][Fiddler] on Widows. It outgrew to support any popular Operating-Systems.
 
@@ -158,7 +158,7 @@ In the command-line, I use many abbreviations aliases for longer commands (defin
 
 For example: Instead of writing `git reset HEAD --hard` for a local Git repository, I just write `grhh`.
 
-If I need to merge branch `develop` onto the current branch I just type `gmd`.
+If I need to merge branch, `develop` onto the current branch I just type `gmd`.
 Or instead of opening vim with the `vim` command, I just insert `v`.
 
 * **Side Note**
@@ -188,7 +188,7 @@ I prefer it over _Spotlight_ which comes with macOS.
 The command-line is a programmer's best friend. We execute tons of commands during any single programming session.
 We usually repeat some recently used command, but not necessarily the very last one, making us press ↑↑..↑ in order to find the desired command.
 
-The cool way is to fuzzy-search the command-line history.
+The cool way is to fuzzy-search our Command-line history.
 I'd like to recommend an awesome tool called [fzf][fzf].
 
 This gem lets us enrich our Command-line history with search-as-you-type (a.k.a fuzzy-search/incremental-search) capabilities.
@@ -204,13 +204,13 @@ This treasure is supported by any Operating-System and even has an official vim 
 
 If you're a zsh user, a super-handy plugin is [zsh-autosuggestions][zsh-autosuggestions].
 I use [zsh-autosuggestions][zsh-autosuggestions], and when I type a command, I get suggestions from my Command-line history
-which makes finding most commands a breeze without even asking for assistance of [fzf][fzf].
+which makes finding most commands a breeze without even asking for the assistance of [fzf][fzf].
 
 So [fzf][fzf] + [zsh-autosuggestions][zsh-autosuggestions] make an unbeatable couple together!
 
 <br/>
 
-We use Command-line a significant fraction of our work. Being able to search on our Command-line history is truly a must.
+We use Command-line a significant fraction of our work. Being able to search our Command-line history is truly a must.
 
 <br/>
 
@@ -218,7 +218,7 @@ We use Command-line a significant fraction of our work. Being able to search on 
 
 One of the most frequent actions while programming is questioning "What's the syntax for doing _X_ in programming language _Y_?"
 
-Instead of Googling for a syntax keyword or for some example showing how to use the standard-library, it's suggested to have an offline documentation ready for instant search on our machine.
+Instead of Googling for a syntax keyword or for some example showing how to use the standard-library, it's suggested to have offline documentation ready for instant search on our machine.
 It can save loads of time and reduce context-switches substantially while programming.
 
 I use the most popular offline documentation tool for Mac called [Dash][Dash]. It comes with documentation sets for almost every programming-language
@@ -246,7 +246,7 @@ But overall, it does the job!
 ![Clear image][Clear image]
 
 If you want to have fewer tabs hanging open in your browser and gain more focus, please consult using [Pocket][Pocket] for saving articles for future reading.
-It will help you again clear your mind and focus on the current relevant tabs.
+It will help you clear your mind and focus on the current relevant tabs.
 
 You may also use a Sticky Notes app for jotting down pieces you'll probably want to move later for another long-term representation usage.
 And Speaking on long-term use, I'm a long-time avid user of [evernote][evernote]. Some people use [evernote][evernote] as their TODO list app too.
@@ -263,9 +263,9 @@ But do you know for example the shortcut for re-opening your last closed browser
 
 I believe that if one finds himself using the Mouse too often when a Keyboard shortcut exists, then he should struggle to start it.
 The best technique for memorizing these Keyboard shortcuts is by using a Spaced-repetition flashcards software like [Anki][Anki].
-[Anki][Anki] is available for any operating system (Mac, Windows, Linux, Android and iOS).
+[Anki][Anki] is available for any operating system (Mac, Windows, Linux, Android, and iOS).
 
-I'm a big fan of [Anki][Anki] and it helps me much learning new things (Keyboard shortcuts is a good use-case) and retaining them for a long-term use.
+I'm a big fan of [Anki][Anki] and it helps me much learning new things (Keyboard shortcuts is a good use-case) and retaining them for long-term use.
 
 A side-note: speaking about flash-cards. Spaced-repetition is the best way to extend your language vocabulary.
 For that I deeply recommend [SuperMemo][SuperMemo].
@@ -276,7 +276,7 @@ Putting the time to learn and memorize useful Keyboard shortcuts can have a trem
 
 1.	**Reading Code**
 
-Apart from writing code, it's very important to have reading and navigating an existing source code a pleasant experience.
+Apart from writing code, it's very important to have our reading and navigating an existing source code a pleasant experience.
 When I read other people's code I usually prefer to read it outside of an IDE (it's just a personal taste).
 
 <br/>
@@ -285,8 +285,8 @@ If I browse a GitHub repository I sometimes use [Octotree][Octotree] but I usual
 I really like [sourcegraph][sourcegraph] navigation and searching features. [GitHub has recently launched](https://help.github.com/en/articles/navigating-code-on-github) their take on code navigation, so we should expect it's only the
 beginning of something big.
 
-I recently came across a tool called [codestream][codestream] that let's you have an inner chat on the code within your IDE.
-Although, I didn't try that tool yet (vim support is upcoming), I believe it can be a great assistant for reading code since it let's you add bookmarks (called [codemarks][codemarks]).
+I recently came across a tool called [codestream][codestream] that lets you have an inner chat on the code within your IDE.
+Although I didn't try that tool yet (vim support is upcoming), I believe it can be a great assistant for reading code since it lets you add bookmarks (called [codemarks][codemarks]).
 [codestream][codestream] also integrates it with other tools like Slack and many issue-tracking tools.
 
 
@@ -301,9 +301,9 @@ Make sure you enjoy a good reading experience while reading other people's code.
 
 **Summary**
 
-In this article I've summarised what I believe, are the top 7 productivity principles each programmer should aim to apply.
+In this article, I've summarised what I believe, are the top 7 productivity principles each programmer should aim to apply.
 I'm humbled by the infinite number of tools and tricks available for us to apply these principles.
-I believe that using these principles, can not only speed our work, but also increase our joy and sense of fulfillment.
+I believe that using these principles, can not only speed our work but also increase our joy and sense of fulfillment.
 
 <br/>
 I'd like to thank you for reading this article!
