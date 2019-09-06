@@ -3,6 +3,39 @@
 ![Headline][Headline]
 
 
+words about Ultralearning book ....
+
+
+### Why?
+History of QWERTY
+
+
+### The challenge
+Colemak history
+
+### How?
+Type Fu
+Cold Turkey vs QWERTY by day & Colemak by night
+macOS setting
+
+
+### vim
+dot file
+
+
+### Other
+brain flexibility
+taking challenges
+
+
+### Was it worth it?
+
+
+### References
+
+
+
+
 [Headline]: https://www.typingclub.com/m/pub/images/tpc-right-left.png
 [Type Fu]: https://type-fu.com/
 [Ultralearning Book Site]: https://www.scotthyoung.com/blog/ultralearning/
