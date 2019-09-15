@@ -315,7 +315,7 @@ Please contact us before starting doing any work, so that we'll both be on the s
 We'll also provide [gitcoin][spacemesh gitcoin] bounties :moneybag::moneybag: for contributors.
 
 
-References:
+#### References
 
 * [spacemesh][spacemesh]
 * [svm][svm]
@@ -325,7 +325,7 @@ References:
 * [spacemesh contact page][spacemesh contact page]
 
 
-WebAssembly Articles:
+#### WebAssembly Articles
 
 * [WebAssembly Official Page](https://webassembly.org/)
 * [Introduction to WebAssembly](https://rsms.me/wasm-intro)
