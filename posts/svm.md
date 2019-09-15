@@ -275,7 +275,7 @@ but also other packages loaded upon instantiation. Part of these packages may be
 (see also [SMESH](#smesh) later).
 
 These packages may not be associated with other contracts accounts (not sure how it'll be represented yet), but they still must be stored on-chain.
-It's like having access to `RubyGems/npm/crates.io/other packages-managers` accessible on the chain. (documentation or debugging info will be stored off-chain).
+It's like having access to `RubyGems/npm/crates.io` or other package-manager accessible on the chain. (documentation or debugging info will be stored off-chain).
 
 I know there is an early-stage work being done on WebAssembly modules interoperability. Lin Clark has published a few weeks ago a great article
 about [WebAssembly Interface Types][WebAssembly Interface Types]. This seems a big step towards that direction.
@@ -332,7 +332,6 @@ We'll also provide [gitcoin][spacemesh gitcoin] bounties :moneybag::moneybag: fo
 * [Introduction to WebAssembly](https://rsms.me/wasm-intro)
 * [WebAssembly: How and why](https://blog.logrocket.com/webassembly-how-and-why-559b7f96cd71/)
 * [Creating and working with WebAssembly modules](https://hacks.mozilla.org/2017/02/creating-and-working-with-webassembly-modules/)
-
 
 
 [svm]: https://github.com/spacemeshos/svm
