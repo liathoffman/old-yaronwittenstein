@@ -187,7 +187,7 @@ A smart contract execution transaction will contain:
 
 The Runtime will:
 * Load the contract WebAssembly code from the `contract store`
-* Compile it to native code, called a `WebAssembly module` thank you [wasmer][wasmer]!
+* Compile it to native code, called a `WebAssembly module` - thank you [wasmer][wasmer]!
 * Create a WebAssembly `import object` with all _svm_ built-in vmcalls (storage/register/full-node)
 
 The `import object` will be initialized with the `contract address` and `contract state` provided by the full-node.
@@ -302,7 +302,7 @@ I've given a talk about the motivation for having _SMESH_ [here][Spacemesh smart
 In this article, we've reviewed the work being done so far for _svm_ - Spacemesh Virtual Machine, and the motivation behind it.
 Then, we've talked about the next steps for _svm_ and mentioned _SMESH_, the future high-level programming-language that will compile to _svm_ WebAssembly code.
 
-In order to fulfill these ambitious goals, we need to add new people :wink:
+In order to fulfill these ambitious goals, we've to made room for people :wink:
 
 So if you're a Rust developer interested in compilation and programming-languages please don't shy away...
 
