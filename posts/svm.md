@@ -321,6 +321,7 @@ We'll also provide [gitcoin][spacemesh gitcoin] bounties :moneybag::moneybag: fo
 * [svm][svm]
 * [wasmer][wasmer]
 * [go-ext-wasm spacemesh][go-ext-wasm spacemesh]
+* [spacemesh full-node][spacemesh full-node]
 * [Spacemesh smart contracts research][Spacemesh smart contracts research]
 * [spacemesh contact page][spacemesh contact page]
 
