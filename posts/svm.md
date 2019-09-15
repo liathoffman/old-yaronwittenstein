@@ -7,17 +7,17 @@ What's _svm_?
 _svm_ stands for Spacmesh Virtual Machine. It's based on the wonderful [wasmer][wasmer] WebAssembly runtime.
 This article assumes basic knowledge about what's WebAssembly and terms like: `host, module, import object, instance` etc.
 
-If you're not familiar with these, I highly recommend reading some of the links under _WebAssembly Articles_ at the end of this article.
+If you're not familiar with these, I highly recommend reading some of the links under [WebAssembly Articles](#webassembly-articles) at the end of this article.
 
-_svm_ is designed for running smart-contracts under any spacemesh full-node.
+_svm_ is designed for running smart-contracts under any [spacemesh full-node][spacemesh full-node].
 There is a great buzz around using WebAssembly outside of the browser, and blockchain-related projects are a popular use-case.
 
 Running smart-contracts transactions must produce the same output given the same starting point across each network node.
 It should run deterministically regardless of the Operating-System and hardware used.
 
-Using WebAssembly for smart-contract fits like a glove for this profound requirement (i.e portability) since while WebAssembly instructions abstraction are pretty low-level,
-yet it's operating-system and hardware agnostic. Another key selling point is that WebAssembly programs can call the host (a.k.a VM/runtime)
-for invoking functions (see: [WebAssembly Imports][WebAssembly Imports]).
+Using WebAssembly for smart-contract fits like a glove for these profound requirements (i.e portability and deterministically) since
+while WebAssembly instructions abstraction are pretty low-level, yet are operating-system and hardware agnostic. Another key selling point is that
+WebAssembly programs can call the host (a.k.a VM/runtime) for invoking functions (see: [WebAssembly Imports][WebAssembly Imports]).
 
 Needless to say why security is so critical for running a smart-contract under a full-node.
 WebAssembly programs run within a sandbox environment by design. Another big win for using WebAssembly.
@@ -42,7 +42,7 @@ Leaving us with feeble and trivial contracts solutions.
 
 Since we're in the blockchain world, we need to be able to do sync starting from a given snapshot. Hence the contract storage is too, snapshot-oriented.
 It means that when we do operations on it, we do them with an explicit context. We call that context/snapshot the `contract state`.
-That state is derived from its underlying data, deterministically of course. More on that later.
+That state is derived from its underlying data, deterministically of course. More on in the continuation of this article.
 
 The `contract storage` abstractions can be viewed hierarchically, when `kv` being the most low-level abstraction and `page slice cache` the most high-level
 abstraction.
@@ -53,7 +53,7 @@ Let's dig a bit deeper...
 
 A key-value map between a slice of bytes denoting the `key` to another slice of bytes, representing the `value`.
 A key-value is stateless. It isn't aware of any `contract state`. Currently, _svm_ has `key-value` interfaces for `in-memory` (useful for tests), `leveldb` and `rocksdb`.
-The `key-value store` serves as a companion for other `contract stoarge` components.
+The `key-value store` serves as a companion for other `contract storage` components.
 
 ![svm-kv][svm-kv]
 
@@ -146,7 +146,7 @@ Currently, the svm registers settings for each running program consist of:
 These numbers are of course subject to change between `svm` versions.
 
 Another future initiative we may implement is adding to the contract program metadata the required registers settings required for its run.
-Consequently, when we'll compile a high-level programming language targeted to the _svm_ flavored WebAssembly (see the `SMESH` section later), we'll decide as part
+Consequently, when we'll compile a high-level programming language targeted to the _svm_ flavored WebAssembly (see the [SMESH](#smesh) section later), we'll decide as part
 of the compilation process how many registers we'd like to have and how many of each type.
 
 ![svm-registers][svm-registers]
@@ -264,7 +264,7 @@ More about the using dependencies under `Code Reuse`.
 
 We want to be able to add structured events for easier searching and we'd like to set an expiration on them in order to save disk space.
 In case a program desires permanent events, the solution will be to use a general `contract storage` variable suited.
-(see `Storage Unbounded Data-Structures` above).
+(see [Storage Unbounded Data-Structures](#storage-unbounded-data-structures) above).
 
 
 #### Code Reuse
@@ -272,7 +272,7 @@ In case a program desires permanent events, the solution will be to use a genera
 One of the big must-have for _svm_ runtime is the ability to let programs reuse code written by other people.
 We'd like _svm_ programs to be able to use other packages of code. _svm_ smart contracts should be able to call not only runtime builtin vmcalls,
 but also other packages loaded upon instantiation. Part of these packages may be written in any programming language compiled to WebAssembly.
-(see also `SMESH` later).
+(see also [SMESH](#smesh) later).
 
 These packages may not be associated with other contracts accounts (not sure how it'll be represented yet), but they still must be stored on-chain.
 It's like having access to `RubyGems/npm/crates.io/other packages-managers` accessible on the chain. (documentation or debugging info will be stored off-chain).
@@ -336,6 +336,7 @@ WebAssembly Articles:
 
 [svm]: https://github.com/spacemeshos/svm
 [spacemesh]: http://spacemesh.io
+[spacemesh full-node]: https://github.com/spacemeshos/go-spacemesh
 [spacemesh gitcoin]: https://gitcoin.co/profile/spacemesh
 [wasmer]: https://wasmer.io
 [wasmer go client]: https://github.com/spacemeshos/go-ext-wasm
