@@ -1,28 +1,27 @@
 # svm
 
-This blog post intends to give a high-level overview of [spacemesh][spacemesh] new [svm][svm] project and a brief overview of its future.
-So...  <br>
+This blog post intends to give a high-level overview of [Spacemesh's][spacemesh] new[SVM][svm] project and a brief overview of its future.
+ <br>
 
-What's _svm_?
-_svm_ stands for Spacmesh Virtual Machine. It's based on the wonderful [wasmer][wasmer] WebAssembly runtime.
-This article assumes basic knowledge about what's WebAssembly and terms like: `host, module, import object, instance` etc.
+What's _SVM_?
+_SVM_ is an acronym for "Spacmesh Virtual Machine." Under the hood, it is based on [WASMer][wasmer] WebAssembly runtime technology.
+This article assumes basic knowledge about what WebAssembly is, and related concepts like: `host, module, import object, instance` etc.
 
-If you're not familiar with these, I highly recommend reading some of the links under [WebAssembly Articles](#webassembly-articles) at the end of this article.
+If you're not familiar with these, I highly recommend reading some of the links under [WebAssembly Articles](#webassembly-articles) at the end of this post.
 
-_svm_ is designed for running smart-contracts under any [spacemesh full-node][spacemesh full-node].
-There is a great buzz around using WebAssembly outside of the browser, and blockchain-related projects are a popular use-case.
+_SVM_ is designed for running smart contracts under any [spacemesh full-node][spacemesh full-node].
+There is a lot of excitement and anticipation abound using WebAssembly outside of the browser, and blockchain related projects are a popular use-case.
 
-Running smart-contracts transactions must produce the same output given the same starting point across each network node.
-It should run deterministically regardless of the Operating-System and hardware used.
+Running smart contracts transactions must produce the same output given the same starting point across each network node.
+It should run deterministically regardless of the operating system and hardware used.
 
-Using WebAssembly for smart-contract fits like a glove for these profound requirements (i.e portability and deterministically) since
-while WebAssembly instructions abstraction are pretty low-level, yet are operating-system and hardware agnostic. Another key selling point is that
+Using WebAssembly for smart contracts is a good way to meet these fundamental requirements (i.e portability and deterministically) because WebAssembly's instructions abstractions are pretty low-level, while still remaining operating system and hardware agnostic. Another key selling point is that
 WebAssembly programs can call the host (a.k.a VM/runtime) for invoking functions (see: [WebAssembly Imports][WebAssembly Imports]).
 
-Needless to say why security is so critical for running a smart-contract under a full-node.
-WebAssembly programs run within a sandbox environment by design. Another big win for using WebAssembly.
+Security is critical for running a smart contract under a full-node.
+WebAssembly programs run within a sandbox environment by design. This is another big point in favor of using WebAssembly.
 
-_svm_ is essentially taking [wasmer][wasmer] which is a general-purpose WebAssembly runtime and extending and tailoring to suit spacemesh needs.
+_SVM_ is essentially taking [wasmer][wasmer] which is a general-purpose WebAssembly runtime and extending and tailoring to suit spacemesh needs.
 
 Actually, _svm_ could be used by other blockchain projects that would like to have WebAssembly-based smart-contracts.
 It's a standalone project, and like every line of spacemesh code is 100% open-source:
